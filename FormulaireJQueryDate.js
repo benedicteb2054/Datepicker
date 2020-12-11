@@ -118,7 +118,7 @@ function check_event_path_for_class(path, selector) {
     }
     return false;
 }
-
+// format date
 function format_date(d) {
     var day = d.getDate();
     if (day < 10) {
